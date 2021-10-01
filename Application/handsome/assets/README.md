@@ -8,26 +8,26 @@ handsome主题的assets目录下静态文件，配合jsDelivr白嫖静态加速
 
 ### 5.1.1
 
-    https://cdn.jsdelivr.net/gh/acewfdy/static@master/Application/handsome/assets/5.1.1/
+    https://cdn.jsdelivr.net/gh/wf-nb/static@master/Application/handsome/assets/5.1.1/
 
 ### 5.2.0
 
-    https://cdn.jsdelivr.net/gh/acewfdy/static@master/Application/handsome/assets/5.2.0/
+    https://cdn.jsdelivr.net/gh/wf-nb/static@master/Application/handsome/assets/5.2.0/
 
 ### 5.3.0
 
-    https://cdn.jsdelivr.net/gh/acewfdy/static@master/Application/handsome/assets/5.3.0/
+    https://cdn.jsdelivr.net/gh/wf-nb/static@master/Application/handsome/assets/5.3.0/
 
 ### 6.0.0
 
-    https://cdn.jsdelivr.net/gh/acewfdy/static@master/Application/handsome/assets/6.0.0/
+    https://cdn.jsdelivr.net/gh/wf-nb/static@master/Application/handsome/assets/6.0.0/
 
 ### 7.3.1
 
-    https://cdn.jsdelivr.net/gh/acewfdy/static@master/Application/handsome/assets/7.3.1/
+    https://cdn.jsdelivr.net/gh/wf-nb/static@master/Application/handsome/assets/7.3.1/
 
 ### default
 
-    https://cdn.jsdelivr.net/gh/acewfdy/static@master/Application/handsome/assets/default/
+    https://cdn.jsdelivr.net/gh/wf-nb/static@master/Application/handsome/assets/default/
 
 ### todo
