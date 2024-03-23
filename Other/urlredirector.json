@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "description": "Emby",
+      "origin": "https://mb3admin.com",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://crackemby.neko.re",
+      "example": "",
+      "enable": true,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "Recaptcha",
+      "origin": "www.google.com/recaptcha",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "recaptcha.net/recaptcha",
+      "example": "",
+      "enable": true,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "GithubRaw",
+      "origin": "raw.githubusercontent.com",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "github-raw.wfnb.eu.org",
+      "example": "",
+      "enable": true,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "Jsdelivr",
+      "origin": "cdn.jsdelivr.net",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "fastly.jsdelivr.net",
+      "example": "cdn.jsdelivr.net",
+      "enable": true,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "Jsdelivr-gh1",
+      "origin": "https://cdn.jsdelivr.net/gh/(.*)/(.*)@(.*)/(.*)",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://github-raw.wfnb.eu.org/$1/$2/$3/$4",
+      "example": "https://cdn.jsdelivr.net/gh/Misaka-blog/imgs@main/20230116230606.png",
+      "enable": false,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "Jsdelivr-gh2",
+      "origin": "https://cdn.jsdelivr.net/gh/(.*)/(.*)/(.*)",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://github-raw.wfnb.eu.org/$1/main/$2/$3",
+      "example": "https://cdn.jsdelivr.net/gh/Misaka-blog/imgs/20230116230606.png",
+      "enable": false,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "Jsdelivr-npm",
+      "origin": "https://cdn.jsdelivr.net/npm/(.*)",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://fastly.jsdelivr.net/npm/$1",
+      "example": "https://cdn.jsdelivr.net/npm/dashjs/dist/dash.all.min.js",
+      "enable": false,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "Gravatar",
+      "origin": "https://(.*)gravatar.com/avatar/(.*)",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://gravatar.loli.net/avatar/$2",
+      "example": "https://secure.gravatar.com/avatar/c1aea4687f3821a45c69f6399b85d0d4",
+      "enable": true,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "Google Translate",
+      "origin": "https://translate.googleapis.com",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://gtranslate.cdn.haah.net",
+      "example": "",
+      "enable": false,
+      "process": "",
+      "_originRe": {}
+    }
+  ]
+}
