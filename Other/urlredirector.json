@@ -27,12 +27,12 @@
     },
     {
       "description": "GithubRaw",
-      "origin": "raw.githubusercontent.com",
-      "exclude": "",
+      "origin": "https://raw.githubusercontent.com/(.*)/(.*)/main/(.*)",
+      "exclude": "(.png|.jpg|.jpeg|.gif|.webp|.PNG|.JPG|.JPEG|.GIF|.WEBP)",
       "methods": [],
       "types": [],
-      "target": "graw.211404.xyz",
-      "example": "",
+      "target": "https://graw.211404.xyz/$1/$2/main/$3",
+      "example": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
       "enable": true,
       "process": "",
       "_originRe": {}
